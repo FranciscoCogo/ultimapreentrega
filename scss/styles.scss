@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{width: 50px;
+border-radius: 50%;}
+
+h1{font-size:80px;
+    color:rgb(233, 175, 14);
+    font-family: 'Splash', cursive;
+    text-align: center;
+    background-image:url(../imagenes/giphy.gif); 
+    
+}
+.eslogan{ 
+    background: linear-gradient(#1c7759,#042049);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #d4aa1d;
+}
+body{
+    background-color: #062e0c;
+    background-image: url(../imagenes/giphy.gif)
+}
+.galeria{
+    display: flex;
+    flex-wrap:nowrap;
+    overflow: auto;
+    
+}
+.galeria img{
+    flex: 1 0 auto;
+    margin: 0 15px;
+    width: 500px;
+    height: 500px;
+}
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+h3{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(15, 61, 26);
+    font-family: 'Rajdhani', sans-serif;
+}
+.menu{
+    text-align: center;
+    width: 90%;
+    height: 70px; 
+    margin: auto;
+    background:linear-gradient(#08412d,#000301);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav ul a{
+    color: rgb(233, 218, 12);
+    text-decoration: none;
+    padding: 1rem
+}
+nav li a:hover{
+    background-color: #000;
+    color: #062e0c;
+    border-radius: 20px;
+}
+.LogoDeContacto{
+    width: 10rem;
+}
+.redes{
+    background-color: rgba(12, 87, 34, 0.255);
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    margin: 50px;
+    text-align: center;
+}
+.SeccionHombreFotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.over2{
+    font-size: larger;
+    color: #31f30a;
+}
+.Over1{
+    font-size: large;
+    color: #31f30a;
+}
+.Overwhite1{
+    font-size: large;
+    color: #31f30a;
+}
+.BuzoBlanco{
+    font-size: large;
+    color: #31f30a;
+
+}
+.SeccionMujerFotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Mover1{
+    font-size: large;
+    color: #31f30a;
+}
+.Mover2{
+    font-size: large;
+    color: #31f30a;
+}
+.Mover3{
+    font-size: large;
+    color: #31f30a;
+}
+.animacion{
+    width: 90vw;
+    height: 70vh;
+    margin: 50px;
+    padding: 1rem;
+    display: flex;
+
+}
+.animacion img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.animacion img:hover{
+    cursor:crosshair;
+    width: 300px;
+    height: auto;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.zapas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.zapas img{
+    animation:rotate-scale-up-diagonal-left 0.8s linear both} @keyframes rotate-scale-up-diagonal-left{0%{transform:scale(1) rotate3d(1,1,0,0deg)}50%{transform:scale(2) rotate3d(1,1,0,-180deg)}100%{transform:scale(1) rotate3d(1,1,0,-360deg)}}
+.videozapas{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 40vh;
+    width: 100vw;
+}
